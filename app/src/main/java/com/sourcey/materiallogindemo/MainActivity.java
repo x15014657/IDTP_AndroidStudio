@@ -1,5 +1,6 @@
 package com.sourcey.materiallogindemo;
 
+// code imported from tutorial @ Kam Low -- http://sourcey.com/beautiful-android-login-and-signup-screens-with-material-design/  https://plus.google.com/+KamLow
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

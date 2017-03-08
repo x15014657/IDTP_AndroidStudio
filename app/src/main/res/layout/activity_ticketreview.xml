@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorAccent"
+    android:weightSum="1"
+    android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="            Ticket Number Dislpays Here" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="   How Many People Ahead Displays Here" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Your ticket number is above! Please accept whether you want to take this ticket number or not (we understand that some may not be able to wait)" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="RadioButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.56"
+        android:text="Accept" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="RadioButton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:layout_weight="0.53" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
 </LinearLayout>
